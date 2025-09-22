@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-252.26199.169">
+    <data-source name="dadcrm: development" uuid="8325dd48-7fab-4a6a-8e58-ab85330ab6f7">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>dadcrm</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="dadcrm: test" uuid="3cca1dc8-c388-4d49-9b92-793101bdf26a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
