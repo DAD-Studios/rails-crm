@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dadcrm.iml" filepath="$PROJECT_DIR$/.idea/dadcrm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dadcrm.iml" filepath="$PROJECT_DIR$/dadcrm.iml" />
     </modules>
   </component>
 </project>
