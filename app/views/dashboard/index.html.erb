@@ -1,0 +1,28 @@
+<div class="container mx-auto py-8" data-controller="kanban">
+    <div class="flex justify-between items-center mb-8">
+    <h1 class="font-bold text-4xl">Agent Dashboard</h1>
+    <div class="flex space-x-2">
+      <%= link_to "New Agent", new_agent_path, class: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" %>
+      <%= link_to "Import CSV", import_agents_path, class: "bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" %>
+    </div>
+  </div>
+
+  <div class="flex space-x-4 overflow-x-auto">
+    <% @statuses.each do |status| %>
+      <div class="bg-gray-100 rounded-lg p-4 w-72 flex-shrink-0" data-kanban-target="column" data-status="<%= status %>">
+        <h2 class="font-bold text-lg mb-4"><%= status %></h2>
+
+        <div class="space-y-4">
+          <% (@agents[status] || []).each do |agent| %>
+            <div class="bg-white rounded-lg p-4 shadow" data-agent-id="<%= agent.id %>">
+              <p class="font-bold"><%= agent.first_name %> <%= agent.last_name %></p>
+              <p class="text-gray-600"><%= agent.company %></p>
+              <p class="text-gray-600"><%= agent.email %></p>
+              <p class="text-gray-600"><%= agent.phone_number %></p>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
