@@ -1,6 +1,6 @@
 # DadCRM
 
-This is a Ruby on Rails application that appears to be a CRM for managing agents.
+This is a Ruby on Rails CRM application for managing agents, contacts, jobs, etc.
 
 ## Features
 
