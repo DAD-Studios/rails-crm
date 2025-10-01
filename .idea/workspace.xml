@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cf7bfd4-a847-488f-9a9e-a569d29ae3cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/agents/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gcm-linux_amd64.2.5.1.deb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gcm-linux_amd64.2.5.1.deb.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gcm-linux_amd64.2.5.1.deb.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gcm-linux_amd64.2.5.1.deb.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/agents_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/agents_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/controllers/kanban_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/controllers/kanban_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/dashboard/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadcrm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dadcrm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/agents_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/agents_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/agents_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/agents_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +77,14 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Rails.Dev Server.executor": "Run",
     "Rails.dadcrm.executor": "Run",
+    "Rake.spec: dadcrm.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP": "1759171782889",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP": "1759273571292",
     "credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm": "WSL",
-    "git-widget-placeholder": "Rebasing main",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "//wsl.localhost/RailsCRM/home/joshua/projects/rails-crm/dadcrm",
     "node.js.detected.package.eslint": "true",
@@ -239,6 +243,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="BROWSER_URL" VALUE="http://127.0.0.1:3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -329,7 +334,9 @@
       <workItem from="1758564564498" duration="3059000" />
       <workItem from="1759169074545" duration="2205000" />
       <workItem from="1759171722162" duration="5661000" />
-      <workItem from="1759178622663" duration="2412000" />
+      <workItem from="1759178622663" duration="3246000" />
+      <workItem from="1759186187927" duration="3022000" />
+      <workItem from="1759273510537" duration="3447000" />
     </task>
     <servers />
   </component>

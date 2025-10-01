@@ -3,6 +3,10 @@ require 'csv'
 class AgentsController < ApplicationController
   protect_from_forgery with: :null_session, only: [:update_status]
 
+  def show
+    @agent = Agent.find(params[:id])
+  end
+
   def new
     @agent = Agent.new
   end

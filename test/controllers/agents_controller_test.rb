@@ -18,6 +18,11 @@ class AgentsControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to root_url
   end
 
+  test "should show agent" do
+    get agent_url(@agent)
+    assert_response :success
+  end
+
   test "should update agent status" do
     patch "/agents/#{@agent.id}/update_status", params: { status: "Contacted" }.to_json, headers: { 'Content-Type' => 'application/json' }
     assert_response :success

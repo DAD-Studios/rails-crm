@@ -30,4 +30,17 @@ class AgentsTest < ApplicationSystemTestCase
     assert_text "Jane Doe"
     assert_text "Peter Jones"
   end
+
+  test "viewing an agent's details" do
+    Agent.create(first_name: "John", last_name: "Doe", email: "john.doe@example.com", company: "Doe Inc.")
+    visit root_url
+
+    click_on "View"
+
+    assert_text "Agent Details"
+    assert_text "John"
+    assert_text "Doe"
+    assert_text "john.doe@example.com"
+    assert_text "Doe Inc."
+  end
 end
